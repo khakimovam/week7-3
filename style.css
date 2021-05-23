@@ -1,0 +1,48 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 100px);
+    grid-template-rows: repeat(2, 100px);
+    gap: 5%;
+}
+
+.wrapper1 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-template-rows: repeat(2, 100px);
+    gap: 5%;
+}
+
+.item1,
+.item1-1 {
+    background-color: red;
+}
+
+.item2,
+.item2-2 {
+    background-color: orange;
+}
+
+.item3,
+.item3-3 {
+    background-color: yellow;
+}
+
+.item4,
+.item4-4 {
+    background-color: green;
+}
+
+.item5,
+.item5-5 {
+    background-color: lightblue;
+}
+
+.item6,
+.item6-6 {
+    background-color: blue;
+}
+
+.item7,
+.item7-7 {
+    background-color: purple;
+}
